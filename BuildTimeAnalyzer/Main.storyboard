@@ -671,6 +671,10 @@ Gw
                                     </textField>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="coU-tR-Iyy">
                                         <rect key="frame" x="816" y="28" width="18" height="19"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="SN2-CM-mXK"/>
+                                            <constraint firstAttribute="width" constant="18" id="hLJ-dM-C8d"/>
+                                        </constraints>
                                         <buttonCell key="cell" type="inline" bezelStyle="inline" image="NSFollowLinkFreestandingTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zPS-Vu-Noe">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="smallSystemBold"/>
